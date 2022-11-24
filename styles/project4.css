@@ -10,7 +10,7 @@ body {
 
 .upperpart {
   text-align: left;
-  background-image: url(images/image3.png);
+  background-image: url(../images/image3.png);
   height: 500px;
   background-position: fixed;
   background-repeat: no-repeat;
