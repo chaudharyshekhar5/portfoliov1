@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.upperpart {
+  text-align: left;
+  background-image: url(images/image3.png);
+  height: 500px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.project {
+  position: absolute;
+  right: 20%;
+  top: 20px;
+  justify-content: center;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px skyblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+}
+.project:hover {
+  border-radius: 15px;
+  box-shadow: 2px 2px brown;
+  font-size: 23px;
+}
+.certificate {
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  justify-content: center;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px skyblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+}
+.certificate:hover {
+  border-radius: 15px;
+  box-shadow: 2px 2px brown;
+  font-size: 23px;
+}
+.upperpart img {
+  border: 1px solid white;
+  padding: 2px;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  justify-content: end;
+  margin: 20px;
+  border-radius: 200px;
+}
+.hi {
+  color: white;
+  margin: 10px;
+  padding-left: 30px;
+  font-size: 45px;
+  text-shadow: 2px 2px red;
+}
+.hii {
+  color: yellow;
+  margin: 10px;
+  padding-left: 30px;
+  font-size: 40px;
+  text-shadow: 2px 2px red;
+}
+
+.midpart {
+  color: wheat;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid black;
+  text-shadow: 2px 2px red;
+}
+.section2 {
+  padding: 25px;
+  font-size: 40px;
+}
+.span {
+  font-size: 55px;
+}
+.midpart2 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 15px;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+.midpart2 img {
+  height: 80%;
+  width: 85%;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  box-shadow: 3px 1px yellow;
+}
+.card {
+  box-shadow: -3px -2px red;
+  background-color: black;
+  border: 2px solid;
+  width: 350px;
+  padding: 10px;
+  margin: 25px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.midpart2 h2 {
+  color: wheat;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px red;
+}
+.details {
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.about {
+  margin: 10px;
+  background-color: white;
+}
+.about > h1 {
+  padding: 20px;
+  font-weight: 300px;
+  color: blue;
+  text-shadow: 2px 1px red;
+  padding: 30px;
+}
+.about h3 {
+  padding: 10px;
+  font-weight: 900px;
+  padding-bottom: 20px;
+  font-family: bold;
+  padding-top: 0;
+  text-align: center;
+}
+.footer {
+  text-shadow: 2px 1px orange;
+}
+.footer {
+  text-decoration: none;
+  margin: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  color: red;
+  justify-content: center;
+  align-items: flex-end;
+}
+.contact {
+  text-decoration: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px;
+  padding-top: 3px;
+  border: 2px solid orange;
+  margin-left: 10px;
+}
+@media (max-width: 1200px) {
+  .project {
+    right: 25%;
+  }
+}
+
+@media (max-width: 578px) {
+  .project {
+    margin-left: 20px;
+    position: absolute;
+    right: 60%;
+    text-align: center;
+    justify-content: center;
+  }
+  .certificate {
+    position: absolute;
+    right: 20%;
+  }
+  .upperpart img {
+    margin-top: 90px;
+  }
+  .upperpart h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 356px) {
+  .upperpart h1 {
+    font-size: 23;
+  }
+  .upperpart img {
+    height: 150px;
+    width: 150px;
+  }
+  .certificate {
+    right: 3%;
+    font-size: 15px;
+  }
+  .project {
+    font-size: 15px;
+  }
+  .card img {
+    height: 120px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
