@@ -34,24 +34,7 @@ body {
   box-shadow: 2px 2px brown;
   font-size: 23px;
 }
-.certificate {
-  position: absolute;
-  right: 10%;
-  top: 20px;
-  justify-content: center;
-  text-decoration: none;
-  color: red;
-  font-size: 20px;
-  padding: 10px;
-  text-shadow: 2px 2px skyblue;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
-}
-.certificate:hover {
-  border-radius: 15px;
-  box-shadow: 2px 2px brown;
-  font-size: 23px;
-}
+
 .upperpart img {
   border: 1px solid white;
   padding: 2px;
